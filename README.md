@@ -2,38 +2,53 @@
 Excel project analyzing employee travel expenses using tables, PivotTables, and charts
 [expenses_raw_2025.xlsx](https://github.com/user-attachments/files/21514389/expenses_raw_2025.xlsx)
 [travel_expenses_clean_2025.xlsx](https://github.com/user-attachments/files/21514393/travel_expenses_clean_2025.xlsx)
-# Travel Expense Analysis (Excel Project)
+# Travel Expense Analysis Dashboard (Excel Project)
 
-This project analyzes travel expense data from the HR department using Microsoft Excel. It includes data cleaning, summary tables, PivotTables, and charts to help identify patterns and answer key business questions.
+## 📌 Project Overview
+This project analyzes business travel expenses across multiple categories and months using Excel. The goal was to clean and organize the raw data, create meaningful summaries, and visualize key insights using charts and a dashboard.
 
-## 📁 Files
-- `data/raw/travel_expenses_raw.xlsx` – original dataset from HR
-- `data/clean/travel_expenses_clean.xlsx` – final version with calculated fields, sorting, and filters
+## 🧾 Data Source
+The original data was provided as part of the WGU "Fundamentals of Spreadsheets and Data Presentations" course. It included expense records for:
+- Car Rentals
+- Flights
+- Hotels
+- Food & Drinks
+- Conference Fees
+- And more…
 
-## 📌 Tasks Completed
+## 🧹 Data Cleaning
+Before analysis, I performed the following data cleaning steps in Excel:
+- Formatted currency fields
+- Standardized capitalization for states
+- Filled missing values where applicable
+- Added a "Total Expenses" column using formulas
+- Created a Suggested Price column with a 50% markup using `=Cost * 1.5`
 
-### 🔹 Data Cleaning & Table Analysis
-- Created an Excel table from raw data (range B2:O22)
-- Added a calculated column for **Daily Average** (`Total ÷ Days`)
-- Sorted by **End Date** (ascending)
-- Added Total Row to summarize:
-  - Total spent in October
-  - Average hotel cost
-  - Total flight costs
-- Filtered for trips lasting 6–7 days
+## 📊 Analysis & Visualization
+Using Excel, I built:
+- A **pivot table** to summarize expenses by category and month
+- A **clustered column chart** to compare spending across months
+- A **line chart** for hotel and flight trends
+- A **dashboard** worksheet with slicers for interactivity
 
-### 🔹 PivotTables
-- **PT1**: Count of trips by number of days
-- **PT2**: Car rental costs by month
-- **PT3**: Total travel expenses per employee
-- **PT4**: Employee travel costs broken down by month
-- **PT5**: Hotel costs per employee (December only)
+## 📈 Key Insights
+- October had the highest total travel costs, mainly due to flights and hotels.
+- Hotels and flights consistently made up over 70% of monthly travel expenses.
+- Suggested pricing revealed that several products were underpriced below the 50% markup threshold.
 
-### 🔹 Charts
-- Clustered column chart: **Total Expense by Travel Category**
-- Clustered column chart: **Comparison of Three Months of Travel Costs**
-- Line chart: **Trips with Highest Totals** (Flights, Hotels, Totals over time)
+## 🛠️ Tools & Features Used
+- Excel tables
+- Conditional formatting
+- Formulas (`=SUM()`, `=IF()`, `=TEXT()`)
+- Charts (column, line)
+- Pivot Tables
+- Slicers for interactive filtering
 
-## 📊 Tools Used
-- Microsoft Excel (tables, formulas, PivotTables, charts)
-- Data visualization & cleaning techniques
+## 📁 File Structure
+travel-expense-dashboard/
+├── raw_data/
+│ └── travel_expenses_original.xlsx
+├── clean_data/
+│ └── travel_expenses_cleaned.xlsx
+├── final_project_dashboard.xlsx
+└── README.md
