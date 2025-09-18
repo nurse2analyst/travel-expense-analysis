@@ -1,43 +1,51 @@
 Travel Expense Analysis Dashboard (Excel Project)
-
 Overview
-This project analyzes business travel expenses across categories and months using Excel. The raw data was cleaned, organized, and transformed into a dashboard with PivotTables and charts to highlight trends and insights.
 
-📂 Files:
+This project explores business travel expenses across several categories and months using Microsoft Excel. The raw data was cleaned, standardized, and then turned into a dashboard that highlights spending patterns through PivotTables and charts.
 
-Raw Data 
-[expenses_raw_2025.xlsx](https://github.com/user-attachments/files/22411741/expenses_raw_2025.xlsx)
+Files
 
-Cleaned Data
-[travel_expenses_clean_2025.xlsx](https://github.com/user-attachments/files/22411746/travel_expenses_clean_2025.xlsx)
+📂 Included datasets and outputs
+
+expenses_raw_2025.xlsx — original data
+
+travel_expenses_clean_2025.xlsx — cleaned and prepared dataset
+
+final_project_dashboard.xlsx — completed dashboard
 
 Data Preparation
 
-Formatted currency fields and standardized state names
+Steps taken to clean and prepare the data:
 
-Filled missing values where possible
+Formatted expense fields into currency
 
-Added a Total Expenses column using formulas
+Standardized capitalization for states
+
+Filled in missing values where possible
+
+Added a Total Expenses column
 
 Created a Suggested Price column with a 50% markup
 
 Analysis & Dashboard
 
-PivotTables summarizing expenses by category and month
+Deliverables built in Excel:
 
-Clustered column chart comparing monthly totals
+PivotTables summarizing expenses by month and category
+
+Clustered column chart for monthly totals
 
 Line chart showing hotel and flight trends
 
-Interactive dashboard with slicers for filtering
+Interactive dashboard with slicers for quick filtering
 
 Key Insights
 
-October had the highest travel costs, driven by flights and hotels
+October recorded the highest travel costs, mostly from flights and hotels
 
-Hotels and flights made up more than 70% of monthly expenses
+Hotels + flights accounted for more than 70% of monthly spending
 
-Suggested pricing flagged several items below the target markup
+Suggested pricing identified items priced below the 50% markup goal
 
 Tools & Features
 
@@ -45,17 +53,15 @@ Excel tables and PivotTables
 
 Conditional formatting
 
-Formulas (SUM, IF, TEXT)
+Formulas: SUM, IF, TEXT
 
 Column and line charts
 
 Slicers for interactivity
 
 Project Structure
-
 travel-expense-dashboard/
-├── raw_data/                   # Original dataset
-├── clean_data/                 # Cleaned dataset
-├── final_project_dashboard.xlsx # Interactive dashboard
+├── raw_data/                  # Original dataset
+├── clean_data/                # Cleaned dataset
+├── final_project_dashboard.xlsx # Dashboard
 └── README.md
-
