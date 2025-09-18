@@ -1,67 +1,54 @@
-Travel Expense Analysis Dashboard (Excel Project)
-Overview
+Travel Expense Analysis (Excel Project)
 
-This project explores business travel expenses across several categories and months using Microsoft Excel. The raw data was cleaned, standardized, and then turned into a dashboard that highlights spending patterns through PivotTables and charts.
+Overview
+This project explores company travel expenses by category and month using Microsoft Excel. The raw data was cleaned, standardized, and summarized with PivotTables and charts to highlight spending patterns and trends.
 
 Files
 
-📂 Included datasets and outputs
+Raw Data: expenses_raw_2025.xlsx
 
-expenses_raw_2025.xlsx — original data
-
-travel_expenses_clean_2025.xlsx — cleaned and prepared dataset
-
-final_project_dashboard.xlsx — completed dashboard
+Cleaned Data: travel_expenses_clean_2025.xlsx
 
 Data Preparation
 
-Steps taken to clean and prepare the data:
+Formatted expense fields as currency
 
-Formatted expense fields into currency
+Standardized state names
 
-Standardized capitalization for states
+Filled missing values where possible
 
-Filled in missing values where possible
+Added Total Expenses column
 
-Added a Total Expenses column
+Added Suggested Price column (=Cost * 1.5)
 
-Created a Suggested Price column with a 50% markup
-
-Analysis & Dashboard
-
-Deliverables built in Excel:
+Analysis & Visuals
 
 PivotTables summarizing expenses by month and category
 
-Clustered column chart for monthly totals
+Clustered column chart comparing monthly totals
 
-Line chart showing hotel and flight trends
-
-Interactive dashboard with slicers for quick filtering
+Line chart tracking hotel and flight trends
 
 Key Insights
 
-October recorded the highest travel costs, mostly from flights and hotels
+October had the highest travel costs, driven by flights and hotels
 
-Hotels + flights accounted for more than 70% of monthly spending
+Flights + hotels accounted for over 70% of monthly expenses
 
-Suggested pricing identified items priced below the 50% markup goal
+Several items priced below the 50% markup target
 
 Tools & Features
 
-Excel tables and PivotTables
+Excel Tables & PivotTables
 
-Conditional formatting
+Conditional Formatting
 
 Formulas: SUM, IF, TEXT
 
-Column and line charts
-
-Slicers for interactivity
+Charts: Column & Line
 
 Project Structure
-travel-expense-dashboard/
+travel-expense-analysis/
 ├── raw_data/                  # Original dataset
 ├── clean_data/                # Cleaned dataset
-├── final_project_dashboard.xlsx # Dashboard
 └── README.md
