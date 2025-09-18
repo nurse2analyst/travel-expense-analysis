@@ -5,7 +5,7 @@ This project explores company travel expenses by category and month using Micros
 
 ---
 
-## 📂 Files  
+## Files  
 - **Raw Data:** `expenses_raw_2025.xlsx`  [expenses_raw_2025.xlsx](https://github.com/user-attachments/files/22411992/expenses_raw_2025.xlsx)
 
 - **Cleaned Data:** `travel_expenses_clean_2025.xlsx`  [travel_expenses_clean_2025.xlsx](https://github.com/user-attachments/files/22411993/travel_expenses_clean_2025.xlsx)
@@ -13,7 +13,7 @@ This project explores company travel expenses by category and month using Micros
 
 ---
 
-## 🧹 Data Preparation  
+## Data Preparation  
 - Formatted expense fields as currency  
 - Standardized state names  
 - Filled missing values where possible  
@@ -22,21 +22,21 @@ This project explores company travel expenses by category and month using Micros
 
 ---
 
-## 📊 Analysis & Visuals  
+## Analysis & Visuals  
 - PivotTables summarizing expenses by month and category  
 - Clustered column chart comparing monthly totals  
 - Line chart tracking hotel and flight trends  
 
 ---
 
-## 📈 Key Insights  
+## Key Insights  
 - **October** had the highest travel costs, driven by flights and hotels  
 - **Flights + hotels** accounted for over 70% of monthly expenses  
 - Several items priced **below the 50% markup target**  
 
 ---
 
-## 🛠️ Tools & Features  
+## Tools & Features  
 - Excel Tables & PivotTables  
 - Conditional Formatting  
 - Formulas: `SUM`, `IF`, `TEXT`  
@@ -44,4 +44,8 @@ This project explores company travel expenses by category and month using Micros
 
 ---
 
-## 📁 Project Structure  
+## Project Structure  
+travel-expense-analysis/
+├── raw_data/                  # Original dataset
+├── clean_data/                # Cleaned dataset
+└── README.md
